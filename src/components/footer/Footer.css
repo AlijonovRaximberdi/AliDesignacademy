@@ -1,0 +1,97 @@
+@media (max-width:768px){
+.foot-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #e0f2fe;
+  
+  flex-wrap: wrap;
+}
+
+.foot-section img.logo {
+  width: 130px;
+  height: 128px;
+  position: relative;
+  top: -25px;
+}
+
+.foot-section h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  top: -40px;
+}
+.social-icons a {
+  padding: 25px;
+  padding-top: 0;
+  position: relative;
+  top: -30px;
+}
+.social-icons img {
+  width: 30px;
+  height: auto;
+  padding-bottom: 20px;
+}
+ .developer-name {
+      display: flex;
+      position: fixed;
+      bottom: 20px;
+      right: 0;
+    }
+    .developer-name p {
+      text-align: right;
+      color: rgb(152, 149, 149);
+      font-size: 12px;
+      position:fixed;
+      right: 0;
+      
+    }
+    .developer-name h5 {
+      margin: 0;
+      position: fixed;
+      left: 5px;
+      color: rgb(152, 149, 149);
+      font-weight: lighter;
+    }
+}
+
+@media (max-width: 410px) {
+  .foot-section {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .foot-section h3 {
+    font-size: 16px;
+    text-align: center;
+  }
+  .footer-wrapper {
+    position: relative;
+    background-color: #f3f3f3;
+    padding-bottom: 40px;
+  }
+
+  .developer-name {
+    position: absolute;
+    right: 20px;
+    font-size: 15px;
+    color: #3a26ef;
+          position: fixed;
+      bottom: 20px;
+    font-family: "Poppins", sans-serif;
+  }
+
+ 
+}
+@media (max-width: 360px){
+  .social-icons a{
+    padding:20px;
+  }
+  .developer-name {
+             position: fixed;
+      bottom: 20px; 
+  }
+} 
